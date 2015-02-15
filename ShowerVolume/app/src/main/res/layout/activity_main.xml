@@ -1,0 +1,54 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/backblue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Mode"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:text="Shower"
+        android:id="@+id/shower_btn"
+        android:alpha="0.6"
+        android:textColor="#ff4ba1c0"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:text="Street"
+        android:id="@+id/street_btn"
+        android:alpha="0.6"
+        android:textColor="#ff4ba1c0"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="40dp"
+        />
+
+
+ </LinearLayout>
